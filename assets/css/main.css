@@ -2447,8 +2447,8 @@ input, select, textarea {
 	section {
 		display: flex;
 		width: 600px;
-		height: 320px;
-		align-items: center;
+		height: 458px;
+		align-content: center;
 	}
 
 	section image {
@@ -2457,7 +2457,7 @@ input, select, textarea {
 	  object-fit: cover;
 	  opacity: 8;
 	  transition: 5s ease;
-	  align-items: center;
+	  
     }
 
 	section image:hover {
@@ -2465,6 +2465,6 @@ input, select, textarea {
 		width: 300px;
 		opacity: 1;
 		filter: contrast(120%);
-		align-items: center;
+	
 
 	}
