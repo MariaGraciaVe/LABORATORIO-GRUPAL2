@@ -2469,4 +2469,47 @@ input, select, textarea {
 
 	}
 
+h1{
+	font-weight: 400;
+	text-align: center;
+	padding: 20px 0;
+	font-size: 40px;
+}
 
+.linea{
+background: darkgreen;
+height: 5px;
+width: 100%;
+display: block;
+}
+
+.Alinear_Flex{
+	display: flex;
+	justify-content: center;
+}
+
+.galeria{
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+width: 95%;
+margin: auto;
+grid-gap: 10px;
+padding: 40px 0;
+overflow: hidden;
+text-align: center;
+}
+
+.galeria img{
+width: 100%;
+vertical-align: top;
+height: 300px;
+object-fit: cover;
+
+
+}
+
+.galeria a:hover img{
+filter: blur(2px);
+transform: rotate(10deg) scale(1.0); 
+
+}
